@@ -1,108 +1,765 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!doctype html>
+<html lang="fr">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claire &amp; Pierre - Mariage en Thaïlande</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Playfair+Display:wght@400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+  
+  <style>
+        /* Styles de base et corrections de scroll pour mobile */
+        html, body {
+            height: auto !important;
+            overflow-y: scroll !important;
+            -webkit-overflow-scrolling: touch !important;
+            position: relative !important;
+        }
 
-\f0\fs24 \cf0 <!doctype html>\
-<html lang="fr">\
- <head>\
-  <meta charset="UTF-8">\
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">\
-  <title>Claire & Pierre - Mariage en Tha\'eflande</title>\
-  \
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">\
-  \
-  <link rel="stylesheet" href="style.css">\
- </head>\
- <body>\
-  \
-  <header class="header">\
-   <nav class="nav container">\
-    <ul class="nav-menu">\
-     <li class="nav-item active" data-section="accueil">Accueil</li>\
-     <li class="nav-item" data-section="programme">Programme</li>\
-     <li class="nav-item" data-section="infos">Infos voyage</li>\
-     <li class="nav-item" data-section="guide-thai">Guide tha\'ef</li>\
-     <li class="nav-item" data-section="hebergement">H\'e9bergement</li>\
-     <li class="nav-item" data-section="mariage">Mariage</li>\
-    </ul>\
-   </nav>\
-  </header>\
-  \
-  <main class="main-content">\
-   \
-   <section id="accueil" class="section active">\
-    <div class="hero">\
-     <div class="container">\
-      <div class="hero-content">\
-       <h1>Claire &amp; Pierre</h1>\
-       <h2>Mariage en Tha\'eflande</h2>\
-       <p class="hero-date">16 au 23 f\'e9vrier 2026</p>\
-       <div class="countdown">\
-        <div class="countdown-item"><span class="countdown-number" id="days">0</span> <span class="countdown-label">Jours</span>\
-        </div>\
-        <div class="countdown-item"><span class="countdown-number" id="hours">0</span> <span class="countdown-label">Heures</span>\
-        </div>\
-        <div class="countdown-item"><span class="countdown-number" id="minutes">0</span> <span class="countdown-label">Minutes</span>\
-        </div>\
-        <div class="countdown-item"><span class="countdown-number" id="seconds">0</span> <span class="countdown-label">Secondes</span>\
-        </div>\
-       </div>\
-       <a href="#" class="cta-button" data-section="programme">D\'e9couvrir le programme</a>\
-      </div>\
-     </div>\
-    </div>\
-   </section>\
-   \
-   <section id="programme" class="section">\
-    <div class="container content-padding">\
-     <h2 class="section-title">Programme du s\'e9jour</h2>\
-     \
-     <div class="program-info">\
-      <p class="program-info-text"> \
-         <strong>Notre souhait :</strong> Partager des moments magiques ensemble tout en respectant l'envie de chacun de profiter de son voyage en toute intimit\'e9. Voici une trame avec diff\'e9rentes options - vous \'eates libres de la suivre ou non ! L'important est que chacun passe un s\'e9jour inoubliable. <br><br>\
-         <strong>Flexibilit\'e9 :</strong> Si vous souhaitez arriver plus tard ou partir plus t\'f4t, n'h\'e9sitez pas, on s'adapte ! Seule contrainte : \'eatre pr\'e9sent le jour J (20 f\'e9vrier) \
-      </p>\
-     </div>\
-     \
-     <div class="program-day">...</div>\
-     <div class="program-day">...</div>\
-    </div>\
-   </section>\
-   \
-   <section id="infos" class="section">\
-    <div class="container content-padding">\
-     <h2 class="section-title">Informations voyage</h2>\
-     \
-     <div class="info-main-section">\
-      <h3 class="info-main-title">Rejoindre Krabi pour le mariage</h3>\
-      <div class="info-flight-detail">\
-       <h4 class="flight-detail-title">Vol int\'e9rieur obligatoire</h4>\
-       <p class="flight-detail-text"><strong>Bangkok &rarr; Krabi</strong><br>\
-         Dur\'e9e : 1h20 \'95 Fr\'e9quence : Plusieurs vols/jour<br>\
-         Compagnies : Thai Airways, Bangkok Airways, AirAsia</p>\
-      </div>\
-     </div>\
-     \
-     <div class="info-grid">\
-        <div class="info-item">...</div>\
-        <div class="info-item full-width"> \
-            <h4> Voyager avec un b\'e9b\'e9 - Guide complet</h4> \
-            <div class="baby-guide-grid">\
-                <div class="baby-guide-card guide-logistics">...</div>\
-                <div class="baby-guide-card guide-food">...</div>\
-                <div class="baby-guide-card guide-pharma">...</div>\
-                <div class="baby-guide-card guide-vaccins">...</div>\
-            </div>\
-        </div>\
-     </div>\
-    </div>\
-   </section>\
-   \
-   </main>\
-  \
-  <script src="script.js" defer></script>\
-  </body>\
-</html>}
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #fef7ed 0%, #fed7aa 50%, #fbbf24 100%);
+            color: #1e293b;
+            overflow-x: hidden;
+            min-height: 100vh;
+            position: relative;
+            height: auto !important;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 8px;
+        }
+
+        .nav-item {
+            cursor: pointer;
+            padding: 12px 20px;
+            border-radius: 12px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 500;
+            color: rgba(30, 41, 59, 0.7);
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(255, 167, 38, 0.1));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border-radius: 12px;
+        }
+
+        .nav-item:hover::before,
+        .nav-item.active::before {
+            opacity: 1;
+        }
+
+        .nav-item:hover,
+        .nav-item.active {
+            color: #1e293b;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.2);
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-top: 0;
+            padding-bottom: 80px;
+        }
+        
+        .section {
+            display: none;
+            padding: 0;
+            padding-bottom: 80px;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .section.active {
+            display: block;
+        }
+        
+        /* Correction défilement sur mobile et sections longues */
+        .section {
+            min-height: auto !important;
+            height: auto !important;
+            overflow: visible !important;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: radial-gradient(ellipse at center, rgba(251, 191, 36, 0.2) 0%, rgba(245, 158, 11, 0.15) 50%, rgba(254, 247, 237, 1) 100%),
+                        linear-gradient(135deg, #fef7ed 0%, #fed7aa 100%);
+            text-align: center;
+            padding: 120px 0 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: clamp(4rem, 10vw, 8rem);
+            font-weight: 400;
+            background: linear-gradient(135deg, #f59e0b, #d97706, #92400e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 0 0 24px 0;
+            line-height: 1.2;
+            letter-spacing: 2px;
+        }
+
+        .hero-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            color: rgba(30, 41, 59, 0.7);
+            font-weight: 500;
+            margin: 0 0 48px 0;
+            letter-spacing: 0.5px;
+        }
+
+        .countdown {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 24px;
+            margin: 64px 0;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .countdown-item {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            padding: 32px 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+        }
+
+        .countdown-number {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff6b6b, #ffa726);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: block;
+            line-height: 1;
+            position: relative;
+            z-index: 2;
+        }
+
+        .countdown-label {
+            font-size: 0.85rem;
+            color: rgba(30, 41, 59, 0.6);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 8px;
+            font-weight: 500;
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+            padding: 18px 48px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 48px;
+            position: relative;
+            overflow: hidden;
+            letter-spacing: 0.5px;
+            box-shadow: 0 8px 32px rgba(245, 158, 11, 0.3);
+        }
+
+        /* Content Sections */
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, #f59e0b, #d97706, #92400e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-align: center;
+            margin-bottom: 80px;
+            line-height: 1.2;
+            letter-spacing: 1px;
+        }
+
+        .program-day {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            margin-bottom: 24px;
+            padding: 32px;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-left: 4px solid;
+            border-left-color: #ff6b6b;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+        }
+
+        .program-date {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, #ff6b6b, #ffa726);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 2;
+            letter-spacing: 0.5px;
+        }
+
+        .program-activities {
+            list-style: none;
+            padding: 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .program-activities li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            color: rgba(30, 41, 59, 0.8);
+        }
+
+        /* Styles pour Infos Voyage */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .info-item {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 32px;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+        }
+
+        .info-item h4 {
+            font-family: 'Playfair Display', serif;
+            background: linear-gradient(135deg, #ff6b6b, #ffa726);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Responsive - Styles pour Mobile */
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 6px;
+                width: 100%;
+                max-width: 380px;
+                margin: 0 auto;
+            }
+            
+            .nav-item {
+                padding: 8px 4px;
+                font-size: 9px;
+                text-align: center;
+                min-height: 32px;
+            }
+
+            .hero-content h1 {
+                font-size: 3rem;
+            }
+
+            .countdown {
+                gap: 15px;
+            }
+
+            .countdown-number {
+                font-size: 2rem;
+            }
+        }
+    </style>
+ </head>
+ <body>
+  <header class="header">
+   <nav class="nav container">
+    <ul class="nav-menu">
+     <li class="nav-item active" onclick="showSection('accueil')">Accueil</li>
+     <li class="nav-item" onclick="showSection('programme')">Programme</li>
+     <li class="nav-item" onclick="showSection('infos')">Infos voyage</li>
+     <li class="nav-item" onclick="showSection('guide-thai')">Guide thaï</li>
+     <li class="nav-item" onclick="showSection('hebergement')">Hébergement</li>
+     <li class="nav-item" onclick="showSection('mariage')">Mariage</li>
+    </ul>
+   </nav>
+  </header>
+  <main class="main-content">
+   <section id="accueil" class="section active">
+    <div class="hero">
+     <div class="container">
+      <div class="hero-content">
+       <h1>Claire &amp; Pierre</h1>
+       <h2>Mariage en Thaïlande</h2>
+       <p style="font-size: 1.2rem; color: #666; margin-bottom: 20px;">16 au 23 février 2026</p>
+       <div class="countdown">
+        <div class="countdown-item"><span class="countdown-number" id="days">0</span> <span class="countdown-label">Jours</span>
+        </div>
+        <div class="countdown-item"><span class="countdown-number" id="hours">0</span> <span class="countdown-label">Heures</span>
+        </div>
+        <div class="countdown-item"><span class="countdown-number" id="minutes">0</span> <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="countdown-item"><span class="countdown-number" id="seconds">0</span> <span class="countdown-label">Secondes</span>
+        </div>
+       </div>
+       <a href="#" class="cta-button" onclick="showSection('programme')">Découvrir le programme</a>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <section id="programme" class="section">
+    <div class="container" style="padding: 80px 24px;">
+     <h2 class="section-title">Programme du séjour</h2>
+     <div style="background: rgba(255, 255, 255, 0.9);
+      padding: 30px; border-radius: 20px; margin-bottom: 40px; text-align: center; border-left: 4px solid #ff6b6b;">
+      <p style="font-size: 1.1rem;
+      color: #666; line-height: 1.6; margin: 0;"> <strong>Notre souhait :</strong> Partager des moments magiques ensemble tout en respectant l'envie de chacun de profiter de son voyage en toute intimité. Voici une trame avec différentes options - vous êtes libres de la suivre ou non ! L'important est que chacun passe un séjour inoubliable. <br><br>
+         <strong>Flexibilité :</strong> Si vous souhaitez arriver plus tard ou partir plus tôt, n'hésitez pas, on s'adapte ! Seule contrainte : être présent le jour J (20 février) </p>
+     </div>
+     <div class="program-day">
+      <div class="program-date">
+        Lundi 16 février - Arrivée &amp; Bienvenue
+      </div>
+      <ul class="program-activities">
+       <li> Arrivées étalées sur la journée à l'aéroport de Krabi</li>
+       <li> Transferts vers l'hôtel selon les horaires d'arrivée</li>
+       <li> Installation et repos - récupération du voyage</li>
+       <li> <strong>Cocktail de bienvenue</strong> en début de soirée (18h00)</li>
+       <li> Ambiance décontractée pour que tout le monde se retrouve</li>
+      </ul>
+     </div>
+     <div class="program-day">
+      <div class="program-date">
+        Mardi 17 février - Journée Filles 
+      </div>
+      <ul class="program-activities">
+       <li> <strong>FILLES :</strong> Excursion bateau à Koh Phi Phi</li>
+       <li> <strong>FILLES :</strong> Journée sur l'île + soirée à Ao Nang</li>
+       <li> <strong>HOMMES :</strong> Journée libre (garde d'enfants)</li>
+       <li> Chacun dîne selon ses envies</li>
+      </ul>
+     </div>
+     <div class="program-day">
+      <div class="program-date">
+        Mercredi 18 février - Matinée Libre &amp; Départ Hommes
+      </div>
+      <ul class="program-activities">
+       <li> <strong>Matinée libre pour tous :</strong></li>
+       <li> Option : Sanctuaire des éléphants</li>
+       <li> Option : Tiger Temple</li>
+       <li> Option : Royal Palm Spa</li>
+       <li> Option : Détente au bord de la piscine</li>
+       <li> <strong>Milieu d'après-midi :</strong> Départ des hommes pour Koh Phi Phi</li>
+       <li> <strong>FEMMES :</strong> Garde d'enfants le soir</li>
+       <li> <strong>HOMMES :</strong> Soirée à Koh Phi Phi</li>
+      </ul>
+     </div>
+     <div class="program-day">
+      <div class="program-date">
+        Jeudi 19 février - Retrouvailles &amp; Détente
+      </div>
+      <ul class="program-activities">
+       <li> <strong>Matinée libre</strong> en attendant le retour de ces messieurs</li>
+       <li> Possibilité : Sanctuaire des éléphants</li>
+       <li> Possibilité : Tiger Temple</li>
+       <li> Possibilité : Royal Palm Spa</li>
+       <li> Possibilité : Détente au bord de la piscine</li>
+       <li> Retour des hommes en fin d'après-midi</li>
+       <li> <strong>Option :</strong> Séance de yoga au coucher du soleil (pour ceux qui veulent)</li>
+      </ul>
+     </div>
+     <div class="program-day">
+      <div class="program-date">
+        Vendredi 20 février - Le Grand Jour !
+      </div>
+      <ul class="program-activities">
+       <li> Cérémonie de mariage (16h45)</li>
+       <li> Séance photos sur la plage</li>
+       <li> Cocktail de félicitations</li>
+       <li> Dîner de gala et soirée dansante</li>
+      </ul>
+     </div>
+     <div class="program-day">
+      <div class="program-date">
+        Samedi 21 février - Récupération
+      </div>
+      <ul class="program-activities">
+       <li> <strong>Journée libre</strong> pour se remettre du mariage</li>
+       <li> <strong>Option :</strong> Excursion bateau aux 4 îles (tous ensemble)</li>
+       <li> <em>Si la météo du dimanche ne permet pas la sortie bateau</em></li>
+       <li> Sinon : détente, plage, piscine selon les envies</li>
+      </ul>
+     </div>
+     <div class="program-day">
+      <div class="program-date">
+        Dimanche 22 février - Excursion Groupe
+      </div>
+      <ul class="program-activities">
+       <li> <strong>Journée bateau aux 4 îles</strong> (tous ensemble)</li>
+       <li> Snorkeling et baignade</li>
+       <li> Déjeuner fruits de mer</li>
+       <li> Dernières photos de groupe</li>
+       <li> Coucher de soleil en mer</li>
+      </ul>
+     </div>
+     <div class="program-day">
+      <div class="program-date">
+        Lundi 23 février - Check-out &amp; Départ
+      </div>
+      <ul class="program-activities">
+       <li> Check-out de l'hôtel</li>
+       <li> Transfert vers l'aéroport de Krabi</li>
+       <li> Vol Krabi  Bangkok  Paris</li>
+       <li> Arrivée à Paris avec des souvenirs plein la tête !</li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   
+   <section id="infos" class="section">
+    <div class="container" style="padding: 80px 24px;">
+        <h2 class="section-title">Informations voyage</h2>
+        
+        <div style="background: rgba(255, 255, 255, 0.9); padding: 30px; border-radius: 20px; margin-bottom: 40px; text-align: center; border-left: 4px solid #ff6b6b;">
+            <h3 style="color: #ff6b6b; margin-bottom: 20px; font-size: 1.4rem;"> Rejoindre Krabi pour le mariage</h3>
+            <div style="background: rgba(255, 107, 107, 0.1); padding: 20px; border-radius: 15px; margin-bottom: 20px;">
+                <h4 style="color: #d97706; margin-bottom: 15px;"> Vol intérieur obligatoire</h4>
+                <p style="font-size: 1.1rem; color: #666; line-height: 1.6; margin: 0;"><strong>Bangkok → Krabi</strong><br> Durée : 1h20 • Fréquence : Plusieurs vols/jour<br> Compagnies : Thai Airways, Bangkok Airways, AirAsia</p>
+            </div>
+        </div>
+        
+        <div class="info-grid">
+            <div class="info-item">
+                <h4> Accès à Krabi</h4>
+                <p><strong>Vol intérieur obligatoire</strong> depuis Bangkok (BKK ou DMK)<br> • <strong>Durée :</strong> 1h20<br> • <strong>Prix :</strong> 2000-6000 THB selon compagnie</p>
+            </div>
+            <div class="info-item">
+                <h4> Transports sur place</h4>
+                <p>• Songthaew : camionnettes locales partagées<br> • Tuk-tuk : pour courtes distances, négocier le prix<br> • Long-tail boat : bateaux traditionnels vers les îles</p>
+            </div>
+            <div class="info-item">
+                <h4> Transferts aéroport</h4>
+                <p><strong>Transferts individuels</strong> depuis l'aéroport 
+                de Krabi vers Ao Nang Beach.<br> • <strong>Taxi :</strong> 600-800 THB (négociable)<br> • <strong>Minivan partagé :</strong> 150-200 THB/personne<br> • <strong>Durée :</strong> 45 minutes<br> • <strong>Apps utiles :</strong> Grab, Bolt</p>
+            </div>
+            <div class="info-item">
+                <h4> Documents requis</h4>
+                <p>• Passeport valide 6 mois<br> • Pas de visa pour séjour &lt; 30 jours<br> • Billet retour obligatoire<br> • Assurance voyage recommandée</p>
+            </div>
+            <div class="info-item">
+                <h4> Climat février</h4>
+                <p><strong>Saison sèche idéale </strong><br> • <strong>Température :</strong> 25-32°C<br> • <strong>Humidité :</strong> 70-80%<br> • <strong>Pluie :</strong> Rare, averses courtes<br> • <strong>Mer :</strong> 28°C, calme</p>
+            </div>
+            <div class="info-item">
+                <h4> Décalage horaire</h4>
+                <p><strong>Thaïlande :</strong> +6h en hiver par rapport à la France<br> Quand il est 12h à Paris, il est 18h à Krabi.<br><br><strong>Conseil :</strong> Commencer à décaler le sommeil 2-3 jours avant le départ.</p>
+            </div>
+            <div class="info-item">
+                <h4> Monnaie</h4>
+                <p>Baht thaïlandais (THB).
+                1€ ≈ 37 THB. Cartes acceptées partout, distributeurs nombreux. Prévoir du liquide pour les marchés.</p>
+            </div>
+            <div class="info-item">
+                <h4> Électricité</h4>
+                <p>Prises de type A, B et C (220V).
+                Adaptateur recommandé mais la plupart des hôtels ont des prises universelles.</p>
+            </div>
+            <div class="info-item">
+                <h4> Communication</h4>
+                <p>WiFi gratuit partout.
+                Carte SIM locale recommandée. Applications utiles : Grab (transport), Google Translate.</p>
+            </div>
+            <div class="info-item">
+                <h4> Santé</h4>
+                <p>Aucun vaccin obligatoire.
+                Eau en bouteille recommandée. Trousse de premiers secours avec anti-moustiques.</p>
+            </div>
+            <div class="info-item" style="grid-column: 1 / -1;">
+                <h4> Voyager avec un bébé - Guide complet</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 20px;">
+                    <div style="background: rgba(255, 255, 255, 0.7); padding: 20px; border-radius: 15px; border-left: 4px solid #ff6b6b;">
+                        <h5 style="color: #ff6b6b; margin-bottom: 15px; font-size: 1.1rem;"> Transport &amp; Logistique</h5>
+                        <p style="margin: 0; line-height: 1.6;">• <strong>Lait/nourriture :</strong> Autorisés en cabine sans restriction<br> • <strong>Poussette :</strong> Pliable jusqu'à la porte d'embarquement<br> • <strong>Siège auto :</strong> Accepté gratuitement en soute<br> • <strong>Hôtel :</strong> Lit bébé fourni sur demande (gratuit)<br> • <strong>Transferts :</strong> Siège auto disponible sur demande<br> • <strong>Santé :</strong> Pédiatre à Bangkok Hospital Krabi</p>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.7); padding: 20px; border-radius: 15px; border-left: 4px solid #ffa726;">
+                        <h5 style="color: #ffa726; margin-bottom: 15px; font-size: 1.1rem;"> Alimentation</h5>
+                        <p style="margin: 0; line-height: 1.6;">• <strong>Lait infantile :</strong> Marques européennes dans les supermarchés (Tesco Lotus, Big C)<br> • <strong>Petits pots :</strong> Gerber et 
+                        Heinz disponibles<br> • <strong>Eau :</strong> Uniquement eau en bouteille pour préparations<br> • <strong>Fruits frais :</strong> Bananes, papayes (bien lavés)<br> • <strong>Biberon :</strong> Stériliser avec pastilles ou eau bouillante<br> • <strong>Chaise haute :</strong> Disponible dans tous les restaurants</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   
+   <section id="guide-thai" class="section">
+    <div class="container" style="padding: 80px 24px;">
+        <h2 class="section-title">Guide de survie Thaï</h2>
+        <div class="info-grid">
+            <div class="info-item">
+                <h4> Salutations de base</h4>
+                <ul class="program-activities" style="margin-top: 15px;">
+                    <li class="phrase-item">Bonjour/Merci (homme) : **Sawatdee krap**</li>
+                    <li class="phrase-item">Bonjour/Merci (femme) : **Sawatdee kaa**</li>
+                    <li class="phrase-item">Comment allez-vous : **Sabai dee mai?**</li>
+                    <li class="phrase-item">Oui/Non : **Chai/Mai**</li>
+                    <li class="phrase-item">S'il vous plaît : **Karuna**</li>
+                </ul>
+            </div>
+            <div class="info-item">
+                <h4> Manger et boire</h4>
+                <ul class="program-activities" style="margin-top: 15px;">
+                    <li class="phrase-item">Délicieux : **Aroy**</li>
+                    <li class="phrase-item">Pas épicé : **Mai phet**</li>
+                    <li class="phrase-item">Je ne mange pas de porc : **Mai kin moo**</li>
+                    <li class="phrase-item">L'addition s'il vous plaît : **Check bin**</li>
+                    <li class="phrase-item">Eau : **Nam**</li>
+                </ul>
+            </div>
+            <div class="info-item">
+                <h4> Shopping et négociation</h4>
+                <ul class="program-activities" style="margin-top: 15px;">
+                    <li class="phrase-item">Combien ça coûte : **Gee baht?**</li>
+                    <li class="phrase-item">Trop cher : **Paeng mak**</li>
+                    <li class="phrase-item">Puis-je avoir une réduction : **Lot dai mai?**</li>
+                    <li class="phrase-item">Où sont les toilettes : **Hong nam yu nai?**</li>
+                    <li class="phrase-item">À droite/À gauche : **Kwaa/Sai**</li>
+                </ul>
+            </div>
+            <div class="info-item" style="grid-column: 1 / -1;">
+                <h4> Étiquette &amp; Culture</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 20px;">
+                    <div style="background: rgba(255, 255, 255, 0.7); padding: 20px; border-radius: 15px; border-left: 4px solid #ff6b6b;">
+                        <h5 style="color: #ff6b6b; margin-bottom: 15px; font-size: 1.1rem;"> Le Wai (Salutation)</h5>
+                        <p style="margin: 0; line-height: 1.6;">Joindre les mains (comme pour prier) et s'incliner légèrement. Plus les mains sont hautes, plus le respect est grand (ne pas faire avec un Tuk-Tuk driver, juste un sourire suffit).</p>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.7); padding: 20px; border-radius: 15px; border-left: 4px solid #ffa726;">
+                        <h5 style="color: #ffa726; margin-bottom: 15px; font-size: 1.1rem;"> Respect du Bouddha</h5>
+                        <p style="margin: 0; line-height: 1.6;">Ne jamais pointer du doigt ou grimper sur les statues de Bouddha. Couvrir les épaules et les jambes pour visiter les temples.</p>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.7); padding: 20px; border-radius: 15px; border-left: 4px solid #ff6b6b;">
+                        <h5 style="color: #ff6b6b; margin-bottom: 15px; font-size: 1.1rem;"> Tête et Pieds</h5>
+                        <p style="margin: 0; line-height: 1.6;">La tête est la partie la plus sacrée ; les pieds sont la partie la moins sacrée. Ne pas toucher la tête de quelqu'un. Ne pas pointer quelqu'un ou quelque chose avec le pied.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="hebergement" class="section">
+    <div class="container" style="padding: 80px 24px;">
+        <h2 class="section-title">Hébergement à Ao Nang</h2>
+        <div style="background: rgba(255, 255, 255, 0.9); padding: 30px; border-radius: 20px; margin-bottom: 40px; text-align: center; border-left: 4px solid #ff6b6b;">
+            <p style="font-size: 1.1rem; color: #666; line-height: 1.6; margin: 0;"> Nous avons sélectionné Ao Nang pour sa proximité avec la plage et les îles, et pour son ambiance festive. <br><br>Vous êtes **libres de choisir l'hôtel** qui correspond à votre budget et à vos préférences. </p>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-item" style="grid-column: 1 / -1;">
+                <h4> Notre Recommandation (Lieu du Mariage)</h4>
+                <div style="background: rgba(255, 107, 107, 0.1); padding: 20px; border-radius: 15px; margin-top: 20px; border-left: 4px solid #ffa726;">
+                    <h5 style="color: #d97706; margin-bottom: 15px; font-size: 1.2rem;"> Le [Nom de l'Hôtel] *****</h5>
+                    <p style="margin: 0; line-height: 1.6;"><strong>Lieu :</strong> Ao Nang Beach<br> • <strong>Notre choix :</strong> C'est là que se déroulera la cérémonie et la réception.<br> • <strong>Avantages :</strong> Service impeccable, accès direct à la plage, ambiance romantique.<br> • <strong>Inconvénients :</strong> Prix plus élevé que la moyenne locale.<br> <a href="[Lien vers l'Hôtel]" target="_blank" style="color: #ff6b6b; font-weight: 600; text-decoration: none;">Voir les disponibilités et réserver</a></p>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <h4> Budget Moyen (Proche)</h4>
+                <p>• <strong>[Nom de l'Hôtel] (3-4 étoiles)</strong><br> • <strong>Prix :</strong> 80€ - 120€ / nuit<br> • <strong>Avantages :</strong> Bon rapport qualité/prix, à 10 min de la plage.<br> • <strong>Idéal pour :</strong> Familles et couples recherchant le confort.</p>
+            </div>
+            <div class="info-item">
+                <h4> Budget Petit (Centre)</h4>
+                <p>• <strong>Guesthouses / Hôtels simples (2-3 étoiles)</strong><br> • <strong>Prix :</strong> 30€ - 60€ / nuit<br> • <strong>Avantages :</strong> Très abordable, proche des restaurants et marchés.<br> • <strong>Idéal pour :</strong> Jeunes couples et voyageurs solo.</p>
+            </div>
+            <div class="info-item">
+                <h4> Villas / Airbnb</h4>
+                <p>• <strong>Villas privées</strong><br> • <strong>Avantages :</strong> Intimité, piscine privée.<br> • <strong>Inconvénients :</strong> Nécessite un tuk-tuk pour aller à la plage (15 min).<br> • <strong>Conseil :</strong> Regroupez-vous à plusieurs pour partager les frais.</p>
+            </div>
+            <div class="info-item">
+                <h4> Transports Locaux (vers la Cérémonie)</h4>
+                <p>Si vous n'êtes pas au lieu de la cérémonie :<br> • <strong>Tuk-Tuk :</strong> Environ 50-100 THB/personne depuis Ao Nang centre.<br> • <strong>Durée :</strong> 5-10 minutes. Facile à trouver.</p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="mariage" class="section">
+    <div class="container" style="padding: 80px 24px;">
+        <h2 class="section-title">Détails du Jour J</h2>
+        <div class="info-grid">
+            <div class="info-item">
+                <h4> Tenue Vêtements</h4>
+                <p><strong>Thème :</strong> Chic, élégant, décontracté.<br> • **Hommes :** Costume clair (lin, beige, bleu pastel), sans cravate si souhaité.<br> • **Femmes :** Robe de cocktail, couleurs vives bienvenues.<br> • **Conseil :** Matières légères (lin/coton) - il fait chaud et humide en Thaïlande !</p>
+            </div>
+            <div class="info-item">
+                <h4> Cadeaux</h4>
+                <p>Votre présence est notre plus beau cadeau !<br> Si vous souhaitez tout de même marquer le coup :<br> • **Liste de mariage :** Nous mettrons une urne pour les dons pour notre voyage de noces (Japon).<br> • **Alternative :** Offrir une activité pour le groupe durant le séjour (ex : un massage pour Claire ou une sortie pêche pour Pierre).</p>
+            </div>
+            <div class="info-item">
+                <h4> Photographe</h4>
+                <p>Un photographe professionnel sera présent de 16h à la fin de la soirée.<br> • **Notre souhait :** Profitez de l'instant.<br> • **Pendant la cérémonie :** Merci de laisser vos téléphones éteints et de faire confiance au photographe !</p>
+            </div>
+            <div class="info-item">
+                <h4> Enfants</h4>
+                <p>Nous adorons vos enfants !<br> • **Cérémonie :** Bienvenue, mais un coin calme sera aménagé en cas de besoin.<br> • **Soirée :** Une nounou sera sur place pour s'occuper des plus petits pendant le dîner de gala.</p>
+            </div>
+        </div>
+    </div>
+   </section>
+  </main>
+
+  <script>
+    // ----------------------
+    // 1. GESTION DES SECTIONS
+    // ----------------------
+    function showSection(sectionId) {
+        // Hide all sections
+        document.querySelectorAll('.section').forEach(section => {
+            section.classList.remove('active');
+        });
+        // Show the requested section
+        document.getElementById(sectionId).classList.add('active');
+
+        // Update active navigation item
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.classList.remove('active');
+        });
+        document.querySelector(`.nav-item[onclick*='${sectionId}']`).classList.add('active');
+
+        // Scroll to the top of the main content area after the header
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    // ----------------------
+    // 2. COMPTE À REBOURS
+    // ----------------------
+    // Date du mariage : 20 février 2026 à 16h45 (heure locale)
+    const weddingDate = new Date("Feb 20, 2026 16:45:00").getTime();
+
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = weddingDate - now;
+
+        // Calculations for days, hours, minutes and seconds
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in elements with id="demo"
+        if (document.getElementById('days')) {
+            document.getElementById('days').textContent = days > 0 ? days : '0';
+            document.getElementById('hours').textContent = hours > 0 ? hours : '0';
+            document.getElementById('minutes').textContent = minutes > 0 ? minutes : '0';
+            document.getElementById('seconds').textContent = seconds > 0 ? seconds : '0';
+        }
+
+        // If the count down is finished, reset to 0
+        if (distance < 0) {
+            if (document.getElementById('days')) {
+                document.getElementById('days').textContent = '0';
+                document.getElementById('hours').textContent = '0';
+                document.getElementById('minutes').textContent = '0';
+                document.getElementById('seconds').textContent = '0';
+            }
+        }
+    }
+
+    // Update countdown every second
+    setInterval(updateCountdown, 1000);
+    updateCountdown(); // Initial call
+    
+    // Set initial section active (Accueil) on load
+    document.addEventListener('DOMContentLoaded', () => {
+        showSection('accueil');
+    });
+
+  </script>
+ </body>
+</html>
